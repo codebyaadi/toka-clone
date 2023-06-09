@@ -1,5 +1,6 @@
 import './App.css'
 import Divider from './components/Divider'
+import Copyright from './components/Footer/Copyright'
 import Footer from './components/Footer/Footer'
 import Hero from './components/Hero/Hero'
 import Layouts from './components/Layouts/Layouts'
@@ -20,6 +21,7 @@ function App() {
       <Support />
       <Divider display='hidden' />
       <Footer />
+      <Copyright />
     </>
   )
 }
