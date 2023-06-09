@@ -12,7 +12,7 @@ const Layouts = () => {
                             <div className="max-w-[664px] flex mr-auto ml-auto">
                                 <div className="w-full flex items-center">
                                     <div className="fade-in w-full">
-                                        <div className="flex flex-col w-full p-[10px]">
+                                        <div className="flex flex-col w-full pt-20 lg:p-[10px]">
                                             <div className="mb-[20px] w-full">
                                                 <div className="flex justify-center">
                                                     <img className='w-[42px]' src={Fire} alt="" />
