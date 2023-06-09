@@ -8,7 +8,7 @@ import TextToka from '../../assets/hero-image/text-toka.png'
 
 const Hero = () => {
     return (
-        <section className="hero-background relative pt-[80px] pb-[260px] lg:pt-[180px] lg:pb-[540px] pl-0 pr-0">
+        <section className="hero-background z-[1] relative pt-[80px] pb-[260px] lg:pt-[180px] lg:pb-[540px] pl-0 pr-0">
             <div className="background-overlay w-full h-full absolute top-0 left-0"></div>
             <div className="max-w-[767px] lg:max-w-[1140px] flex relative mr-auto ml-auto">
                 <div className="w-full flex">
