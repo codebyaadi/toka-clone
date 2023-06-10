@@ -5,6 +5,11 @@ import BlurPurpleBall from "../../assets/hero-image/ball-purple-blur.png";
 import BlurPinkBall from "../../assets/hero-image/ball-pink-blur.png";
 import SparkleLight from "../../assets/hero-image/vector-sparkle-light.png";
 import TextToka from '../../assets/hero-image/text-toka.png'
+import Ethereum from '../../assets/grad-3d-icons/eth-dynamic-gradient.png';
+import Wallet from '../../assets/grad-3d-icons/wallet-dynamic-gradient.png'
+import Rocket from '../../assets/grad-3d-icons/rocket-dynamic-gradient.png'
+import Locker from '../../assets/grad-3d-icons/locker-dynamic-gradient.png'
+import Sphere from '../../assets/grad-3d-icons/sphere-dynamic-gradient.png'
 
 const Hero = () => {
     return (
@@ -23,22 +28,22 @@ const Hero = () => {
                                     />
                                 </div>
                                 <div className="absolute left-[35px] bottom-[-76px] lg:left-[138px] lg:bottom-[2px]">
-                                    <img className="float w-[50px]" src={PinkBall} alt="" />
+                                    <img className="float w-[75px]" src={Ethereum} alt="" />
                                 </div>
                                 <div className="absolute left-[133px] bottom-[-218px] lg:left-[5px] lg:bottom-[284px]">
                                     <img className="float w-[25px] lg:w-[55px]" src={BlueBall} alt="" />
                                 </div>
                                 <div className="absolute right-[60px] bottom-[-69%] lg:right-0 lg:bottom-[328px]">
-                                    <img className="float w-[40px] lg:w-[45px]" src={PinkBall} alt="" />
+                                    <img className="float w-[45px] lg:w-[60px]" src={Sphere} alt="" />
                                 </div>
                                 <div className="absolute right-[66px] top-[100%] lg:right-[35px] lg:top-[249px]">
-                                    <img className="float w-[50px] lg:w-[45px]" src={BlurPurpleBall} alt="" />
+                                    <img className="float w-[60px] lg:w-[75px]" src={Locker} alt="" />
                                 </div>
                                 <div className="absolute left-[40px] top-[-40px] lg:left-[226px] lg:top-[-47px]">
-                                    <img className="float w-[30px] lg:w-[35px]" src={BlurPinkBall} alt="" />
+                                    <img className="float w-[55px] lg:w-[75px]" src={Rocket} alt="" />
                                 </div>
                                 <div className="absolute right-[30px] top-[-19px] lg:right-[178px] lg:top-[-80px]">
-                                    <img className="float w-[35px] lg:w-[45px]" src={BlueBall} alt="" />
+                                    <img className="float w-[45px] lg:w-[80px]" src={Wallet} alt="" />
                                 </div>
                                 <section className="w-full mt-0 mb-0 p-0 relative">
                                     <div className="max-w-[562px] flex mr-auto ml-auto relative">

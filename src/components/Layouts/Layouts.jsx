@@ -1,4 +1,5 @@
-import Fire from '../../assets/futuristic-layouts/fire.png'
+// import Fire from '../../assets/futuristic-layouts/fire.png'
+import Fire from '../../assets/grad-3d-icons/fire-front-gradient.png'
 import LayoutData from '../../constant/LayoutData'
 import BlogLayoutData from '../../constant/BlogLayoutData'
 
@@ -15,7 +16,7 @@ const Layouts = () => {
                                         <div className="flex flex-col w-full pt-20 lg:p-[10px]">
                                             <div className="mb-[20px] w-full">
                                                 <div className="flex justify-center">
-                                                    <img className='w-[42px]' src={Fire} alt="" />
+                                                    <img className='w-[54px]' src={Fire} alt="" />
                                                 </div>                                               
                                             </div>
                                             <div className="mb-[20px] w-full text-center text-[#2CBCA5] text-sm lg:text-base font-semibold uppercase leading-6 tracking-[1px]">

@@ -1,5 +1,7 @@
-import DocImg from '../../assets/support/doc.png';
-import Customer from '../../assets/support/customer-support.png'
+// import DocImg from '../../assets/support/doc.png';
+// import Customer from '../../assets/support/customer-support.png'
+import DocImg from '../../assets/grad-3d-icons/copy-front-gradient.png';
+import Customer from '../../assets/grad-3d-icons/chat-text-front-gradient.png'
 
 const Support = () => {
     return (
